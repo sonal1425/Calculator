@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: beige; */
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.calctable {
+    border: 1px solid black;
+    height: 35rem;
+    width: 25rem;
+    text-align: center;
+    background-color: grey;
+    /* margin-left: 30rem; */
+    padding: 2rem;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 6px;
+    font-weight: bolder;
+
+
+}
+
+.calch1 {
+    color: brown;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+input[type=text] {
+    width: 19rem;
+    height: 4rem;
+    font-size: 2rem;
+    text-align: right;
+    box-shadow: 1px 1px 5px black;
+
+
+
+}
+
+.button1 {
+    height: 3rem;
+    width: 3rem;
+    background-color: white;
+    border: none;
+    box-shadow: 1px 1px 5px black;
+    text-align: center;
+}
+
+.button2 {
+    height: 3rem;
+    width: 3rem;
+    background-color: white;
+    border: none;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 50%;
+    text-align: center;
+}
+
+
+span {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.calcdiv {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}

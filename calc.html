@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="calcdiv">
+        <table class="calctable">
+            <caption>
+                <h1 class="calch1"> Calculator</h1><br>
+            </caption>
+            <tr>
+                <td colspan="4"> <input type="text" id="res"> </td>
+
+            </tr>
+
+            <tr>
+                <td> <button onclick="funAc()" class="button2"><span>AC</span></button> </td>
+                <td> <button onclick="funClr()" class="button2"><span><i class="fas fa-backspace"></i></span></button>
+                </td>
+                <td><button onclick="show('%')" class="button2"><span>%</span></button></td>
+                <td><button onclick="show('/')" class="button2"><span>/</span></button></td>
+
+            </tr>
+
+            <tr>
+                <td><button onclick="show('7')" class="button1"><span>7</span></button></td>
+                <td><button onclick="show('8')" class="button1"><span>8</span></button></td>
+                <td><button onclick="show('9')" class="button1"><span>9</span></button></td>
+                <td><button onclick="show('*')" class="button2"><span>*</span></button></td>
+            </tr>
+
+            <tr>
+                <td><button onclick="show('4')" class="button1"><span>4</span></button></td>
+                <td><button onclick="show('5')" class="button1"><span>5</span></button></td>
+                <td><button onclick="show('6')" class="button1"><span>6</span></button></td>
+                <td><button onclick="show('-')" class="button2"><span>-</span></button></td>
+            </tr>
+
+            <tr>
+                <td><button onclick="show('1')" class="button1"><span>1</span></button></td>
+                <td><button onclick="show('2')" class="button1"><span>2</span></button></td>
+                <td><button onclick="show('3')" class="button1"><span>3</span></button></td>
+                <td><button onclick="show('+')" class="button2"><span>+</span></button></td>
+
+
+            </tr>
+            <tr>
+                <td><button onclick="show('00')" class="button1"><span>00</span></button></td>
+                <td><button onclick="show('0')" class="button1"><span>0</span></button></td>
+                <td><button onclick="show('.')" class="button1"><span>.</span></button></td>
+                <td><button onclick="funCal()" class="button2"><span>=</span></button></td>
+            </tr>
+
+        </table>
+    </div>
+
+    <script src="calc.js"></script>
+
+</body>
+
+</html>
